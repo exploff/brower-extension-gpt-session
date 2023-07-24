@@ -13,7 +13,9 @@
     "react": "^18.2.0",
     "react-browser-extension-scripts": "4.0.10",
     "react-dom": "^18.2.0",
+    "stream-to-array": "^2.3.0",
     "typescript": "^4.9.5",
+    "uuid": "^9.0.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -39,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.22.5",
+    "@types/chrome": "^0.0.237"
   }
 }
